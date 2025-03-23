@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MyShop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 p-4 text-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold">MyShop</a>
+            <div>
+                <a href="/home" class="px-4 hover:underline">Home</a>
+                <a href="/about" class="px-4 hover:underline">About</a>
+                <a href="/contact" class="px-4 hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <div class="container mx-auto mt-10 px-4 text-center">
+        <h1 class="text-4xl font-bold text-blue-600">Contact Us</h1>
+        <p class="text-gray-700 mt-4 max-w-2xl mx-auto">
+            Have any questions or concerns? We're here to help! Reach out to us via the form below.
+        </p>
+
+        <!-- Contact Form -->
+        <div class="mt-6 max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <form action="#" method="POST">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Your Name</label>
+                    <input type="text" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">Message</label>
+                    <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" placeholder="Write your message"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mt-8">
+            <p class="text-gray-700"><strong>Email:</strong> support@myshop.com</p>
+            <p class="text-gray-700"><strong>Phone:</strong> +1 (234) 567-890</p>
+            <p class="text-gray-700"><strong>Address:</strong> 123 E-commerce St, New York, USA</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white mt-12 py-6 text-center">
+        <p>&copy; 2025 MyShop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

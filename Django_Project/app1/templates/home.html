@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 p-4 text-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold">MyShop</a>
+            <div>
+                <a href="/home" class="px-4 hover:underline">Home</a>
+                <a href="/about" class="px-4 hover:underline">About</a>
+                <a href="/contact" class="px-4 hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-cover bg-center h-[400px] flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?shopping,ecommerce');">
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg text-center">
+            <h1 class="text-4xl text-white font-bold">Discover the Best Deals</h1>
+            <p class="text-gray-200 mt-2">Shop the latest and trending products at unbeatable prices!</p>
+            <a href="#products" class="mt-4 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- Product Section -->
+    <div class="container mx-auto mt-10 px-4" id="products">
+        <h2 class="text-3xl font-bold text-center mb-6">Our Featured Products</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Product 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.ljzyVqFMSDP3gVn6AytMbQHaE7&w=315&h=315&c=7" alt="Laptop" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Laptop</h3>
+                    <p class="text-gray-600">High-performance laptop for professionals.</p>
+                    <p class="text-blue-600 font-bold mt-2">$899</p>
+                    <button class="mt-3 w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.nvdM5sEm4DqG8oZb8nNStQHaHa&w=474&h=474&c=7" alt="Smartphone" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Smartphone</h3>
+                    <p class="text-gray-600">Latest smartphone with advanced features.</p>
+                    <p class="text-blue-600 font-bold mt-2">$699</p>
+                    <button class="mt-3 w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.RZjRvaO9IfDAwpD20I7e5wHaHa&w=474&h=474&c=7" alt="Headphones" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Headphones</h3>
+                    <p class="text-gray-600">Noise-canceling headphones with deep bass.</p>
+                    <p class="text-blue-600 font-bold mt-2">$199</p>
+                    <button class="mt-3 w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.rf9OXw53T63_6fpHayVjhQHaHa&w=474&h=474&c=7" alt="Smart Watch" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Smart Watch</h3>
+                    <p class="text-gray-600">Track fitness and notifications easily.</p>
+                    <p class="text-blue-600 font-bold mt-2">$249</p>
+                    <button class="mt-3 w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white mt-12 py-6 text-center">
+        <p>&copy; 2025 MyShop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
